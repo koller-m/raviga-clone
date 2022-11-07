@@ -8,6 +8,7 @@
     transition: .3s ease-in;
     overflow: hidden;
     background-color: #000;
+    border-bottom: 1px solid #fff;
 }
 
 .header .navbar {
@@ -23,6 +24,7 @@
 .header .navbar img {
     width: 289px;
     height: auto;
+    padding-top: 1rem;
 }
 
 .header .nav-menu {
