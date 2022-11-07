@@ -66,6 +66,10 @@
         left: 0;
     }
 
+    .nav-menu a {
+        color: #fff;
+    }
+
     .nav-item {
         margin: .8rem 0;
     }
