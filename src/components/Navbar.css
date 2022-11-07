@@ -7,6 +7,7 @@
     z-index: 1;
     transition: .3s ease-in;
     overflow: hidden;
+    background-color: #000;
 }
 
 .header .navbar {
@@ -50,7 +51,6 @@
 @media (max-width: 940px) {
     .header {
         max-width: 100%;
-        background-color: #000;
     }
 
     .header .navbar {
@@ -68,7 +68,7 @@
         flex-direction: column;
         background-color: #000;
         width: 100%;
-        height: 90vh;
+        height: 100vh;
         z-index: 99;
         text-align: center;
     }
