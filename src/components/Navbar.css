@@ -30,7 +30,17 @@
 
 .header .nav-item {
     font-weight: 500;
+    text-transform: uppercase;
     padding: 1rem;
+}
+
+.header .nav-item a {
+    color: #fff;
+}
+
+.header .nav-item a:hover {
+    padding-bottom: 12px;
+    border-bottom: 3px solid #fff;
 }
 
 .hamburger {
@@ -65,10 +75,6 @@
 
     .nav-menu.active {
         left: 0;
-    }
-
-    .nav-menu a {
-        color: #fff;
     }
 
     .nav-item {
