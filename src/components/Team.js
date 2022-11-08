@@ -5,7 +5,7 @@ import monica from './images/monica.png'
 
 const Team = () => {
     return (
-        <div className="container">
+        <div className="container" id="team">
             <div>
                 <div className="image-container">
                     <img src={peter} alt="Peter Gregory" />
