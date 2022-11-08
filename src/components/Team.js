@@ -11,7 +11,7 @@ const Team = () => {
                     <img src={peter} alt="Peter Gregory" />
                 </div>
                 <p>Peter Gregory</p>
-                <p>Founder/General Partner</p>
+                <p>Founder<span>/General Partner</span></p>
             </div>
             <div>
                 <div className="image-container">

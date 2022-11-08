@@ -29,3 +29,23 @@
     font-weight: 300;
     font-size: 1.4rem;
 }
+
+@media (max-width: 940px) {
+    .container {
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .image-container {
+        height: 150px;
+        width: 150px;
+    }
+
+    span {
+        display: none !important;
+    }
+
+    .container p {
+        font-size: 1rem;
+    }
+}
