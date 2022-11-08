@@ -1,5 +1,6 @@
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import Portfolio from "./components/Portfolio";
 import Team from "./components/Team";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <Hero />
       <Team />
+      <Portfolio />
     </div>
   );
 }

@@ -1,0 +1,22 @@
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    height: 50vh;
+    text-align: center;
+}
+
+.portfolio h2 {
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+    border-bottom: 1px solid #fff;
+}
+
+.portfolio p {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
