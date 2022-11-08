@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    height: 70vh;
+    background-color: #000;
+    color: #fff;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid #fff;
+}
+
+.image-container {
+    border-radius: 50%;
+    overflow: hidden;
+    height: 200px;
+    width: 200px;
+    border: 3px solid #fff;
+    margin-bottom: 1rem;
+}
+
+.image-container img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.container p {
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.4rem;
+}
